@@ -3,7 +3,7 @@ import json
 import mysql.connector
 
 try: 
-    mydb=mysql.connector.connect(host = 'localhost', user='root',password='',database='publicapidb')
+    mydb=mysql.connector.connect(host = 'localhost', user='root',password='',database='userinfodb')
 except mysql.connector.Error as e:
     print("Mysql connecter error",e)
 
